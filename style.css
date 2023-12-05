@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .header{
@@ -37,6 +37,11 @@ ul{
     width: 500px;
 }
 
+a{
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
 .welcome-container{
     display: flex;
     justify-content: center;
@@ -50,11 +55,22 @@ ul{
     flex: 0;
 }
 
+.sign-up-1{
+    height: 30px;
+    width: 100px;
+    margin-top: 20px;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    font-weight: 700;
+    border: none;
+    border-radius: 5px;
+}
 
 .title{
     font-size: 48px;
     font-weight: 900;
     color: #f9faf8;
+    margin-bottom: 20px;
 }
 
 .info-title{
@@ -91,6 +107,7 @@ ul{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 .quote{
@@ -98,4 +115,54 @@ ul{
     font-style: italic;
     color: #1f2937;
     width: 600px;
+}
+
+.author{
+    font-size: 32px;
+    font-weight: 700;
+    color: black;
+    margin-left: 400px;
+}
+
+.body-3{
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.coa-container{
+    height: 150px;
+    width: 1000px;
+    border-radius: 5px;
+    background-color: #3882F6;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-up-2{
+    height: 30px;
+    width: 80px;
+    margin: 20px;
+    background-color: #3882F6;
+    color: #f9faf8;
+    font-weight: 700;
+    border-color: #f9faf8;
+    border-radius: 5px;
+}
+
+.coa-header{
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.footer{
+    background-color: #1f2937;
+    color: #E5E7EB;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
